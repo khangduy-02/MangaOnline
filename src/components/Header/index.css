@@ -1,0 +1,119 @@
+.header-container{
+  background-color: #0973B9;
+}
+
+.header {
+  color: #fff;
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px 0px;
+  
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+}
+
+.header-search {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.header-search input {
+  padding-left: 30px; 
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.header-user button:hover {
+  background-color: #3498db; 
+}
+
+
+.header-menu {
+  display: flex;
+  background-color: #0973B9; 
+  align-items: center;
+  text-align: center;
+
+}
+
+.header-menu a {
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 16px; 
+  padding: 5px 10px; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.header-user button {
+  background-color: #0973B9;
+  color: #fff;
+  padding: 8px 15px;
+  border: none; 
+  cursor: pointer;
+} 
+.home-icon {
+  font-size: 50px; 
+  color: #0973B9; 
+  cursor: pointer; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.home-icon:hover {
+  transform: scale(1.02); 
+}
+
+.header-menu a:hover {
+  color: #f1c40f; 
+}
+.header-menu a:hover svg {
+  transform: scale(1.01);
+  transition: transform 0.2s ease;
+}
+.category-menu{
+  position: relative;
+}
+.category{
+  background-color: white;
+  display: none;
+  position: absolute;
+  z-index: 100;
+  height: 500px;
+  width: 500px;
+  gap: 50px;
+}
+
+.category > ul  {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.category > ul > li {
+  color: black;
+  font-size: 16px;
+  gap: 20px;
+}
+.category-menu:hover > .category {
+  
+  display: block;
+  
+}
+
+.arrow {
+  font-size: 12px; 
+  vertical-align: middle; 
+}

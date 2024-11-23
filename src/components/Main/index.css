@@ -1,0 +1,111 @@
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.title{
+  display: block;
+}
+
+.image-header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.image-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  outline: none;
+}
+
+.button-image {
+  width: 200px;
+  height: 300px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.left-content-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+}
+
+.left-item {
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.left-item:hover {
+  transform: scale(1.02);
+}
+
+.left-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.right-container {
+  flex: 1;
+}
+
+
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f9f9f9;
+  table-layout: fixed;
+  border-collapse: collapse; 
+  border: none;
+}
+
+.my-table th, .my-table td {
+  border: none; 
+  padding: 10px; 
+  text-align: center;
+}
+.table-container {
+  width: 20%; 
+  margin-bottom: 210px;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  padding: 5px;
+}
+h3{
+  color:  #0973B9;
+  left: auto;
+}
+
+.pagination-container {
+  margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pagination{
+  margin-left: 0px;
+}
+
+.button-image:hover {
+  transform: scale(1.02);
+}
